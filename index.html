@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Tracker Application </title>
+</head>
+<body>
+    <header>
+        <div class="headcontainer">
+            <h1> Reading Tracker Application</h1>
+        </div>
+    </header>
+    <main>
+        <div class="maincontainer">
+            <section class="bookform">
+
+                <h2> Add Book</h2>
+                <form>
+                    <label for="booktitle"> Book Title: </label>
+                    <input type="text" id="booktitle" name="booktitle"><br>
+
+                    <label for="author"> Book Author: </label>
+                    <input type="text" id="author" name="author">
+
+                    <p> Book Status: </p>
+                    <input type="radio" id="want2read" name="bookstatus" value="want2read">
+                    <label for="want2read"> Want to Read </label><br>
+
+                    <input type="radio" id="currentread" name="bookstatus" value="currentread">
+                    <label for="currentread"> Currently Read </label><br>
+
+                    <input type="radio" id="readbook" name="bookstatus" value="readbook">
+                    <label for="readbook"> Finished Book </label> <br>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
