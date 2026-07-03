@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reading Tracker Application </title>
+</head>
+<body>
+    <header>
+        <div class="headcontainer">
+            <h1> Reading Tracker Application</h1>
+        </div>
+    </header>
+    <main>
+        <div class="maincontainer">
+            <section class="bookforminfo">
+                 <!-- Make sure to go back in and remove the br, this is not good practice in shipping final version -->
+                <h2> Add Book</h2>
+                <form class="bookform">
+                    <label for="booktitle"> Book Title: </label>
+                    <input type="text" id="booktitle" name="booktitle"><br>
+
+                    <label for="author"> Book Author: </label>
+                    <input type="text" id="author" name="author">
+
+                    <p> Book Status: </p>
+                    <input type="radio" id="want2read" name="bookstatus" value="want2read">
+                    <label for="want2read"> Want to Read </label><br>
+
+                    <input type="radio" id="currentread" name="bookstatus" value="currentread">
+                    <label for="currentread"> Currently Reading </label><br>
+
+                    <input type="radio" id="readbook" name="bookstatus" value="readbook">
+                    <label for="readbook"> Finished Book </label> <br>
+
+                    <button type="button" id="formbtn">Submit</button>
+
+                </form>
+            </section>
+            
+                <div id="result"></div>
+            
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
